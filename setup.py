@@ -4,12 +4,9 @@ from setuptools import setup, find_packages
 with open('requirements.txt') as f:
 	install_requires = f.read().strip().split('\n')
 
-# get version from __version__ variable in magic_frappe/__init__.py
-from "erpnext-adelsdorf" import __version__ as version
-
 setup(
 	name='erpnext-adelsdorf',
-	version=version,
+	version="0.0.1",
 	description='This creates erpnext-adelsdorf',
 	author='K&K Software AG',
 	author_email='teamx@kk-software.de',
