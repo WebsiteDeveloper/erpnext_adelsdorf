@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_adelsdorf *.css
+recursive-include erpnext_adelsdorf *.csv
+recursive-include erpnext_adelsdorf *.html
+recursive-include erpnext_adelsdorf *.ico
+recursive-include erpnext_adelsdorf *.js
+recursive-include erpnext_adelsdorf *.json
+recursive-include erpnext_adelsdorf *.md
+recursive-include erpnext_adelsdorf *.png
+recursive-include erpnext_adelsdorf *.py
+recursive-include erpnext_adelsdorf *.svg
+recursive-include erpnext_adelsdorf *.txt
+recursive-exclude erpnext_adelsdorf *.pyc
