@@ -12,7 +12,7 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
-app_include_css = ["/assets/css/erpnext-adelsdorf.min.css"]
+app_include_css = ["/assets/css/erpnext_adelsdorf.min.css"]
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/erpnext_adelsdorf/css/erpnext_adelsdorf.css"
